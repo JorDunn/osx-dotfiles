@@ -1,0 +1,23 @@
+#
+# Retina display scaling
+#
+Xft.dpi: 227
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.95
+export QT_SCREEN_SCALE_FACTORS=0.9
+export QT_AUTO_SCREEN_SCALE_FACTOR=2
+export QT_SCALE_FACTOR=2
+
+# This doesn't seem to do anything, but maybe I just don't notice it.
+xrandr --dpi 227
+
+#
+# URxvt
+#
+URxvt*font: xft:fira code:size=10
+URxvt*letterSpace=-1
+URxvt*scrollBar: false
+URxvt*depth: 32
+URxvt*background: [85]#ffffff
+URxvt*blurRadius: 5
+URxvt*internalBorder: 10
